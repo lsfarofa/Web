@@ -20,6 +20,9 @@ namespace Web.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["Title"] = "Privacy Policy";
+            ViewData["Email"] = "sgc.lucas@gmail.com";
+
             return View();
         }
 
